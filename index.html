@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="pino-de-localizacao.png" type="image/x-icon">
+    <title>Buscador de Cep</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://kit.fontawesome.com/dbb93704e0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <form action="">
+    <div class="container">
+        <h1>Digite seu Cep 📌</h1>
+        <div class="box">
+            <div class="inputBox" id="box">
+             <input type="text" onblur="pesquisacep(this.value)" name="cep" id="cep" placeholder="Digite seu CEP" maxlength="9" required>
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          <div class="search">
+        
+            <div class="inputBox hide">
+                <input type="text" name="rua" id="rua" class="inputUser" placeholder="Sua Rua">
+            </div>
+            <div class="inputBox hide">
+                <input type="text" name="bairro" id="bairro" class="inputUser" placeholder="Seu Bairro">
+            </div>
+            <div class="inputBox hide">
+                <input type="text" name="cidade" id="cidade" placeholder="Sua Cidade">
+            </div>
+            <div class="inputBox hide">
+                <input type="text" name="estado" id="estado" class="inputUser" placeholder="Seu Estado">
+            </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Importando a Biblioteca jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Importando o plugin jQuery Mask -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  </body>
+  <script src="./index.js"></script>
+</html>
