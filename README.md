@@ -4,7 +4,9 @@ Buscador de CEP com html, css e javascript, utilizando a API viaCEP <br>
 ## ⚙ Funcionalidades  
 - Layout bem construído <br> 
 - Site completamente responsivo <br>  
-- Utilização da API viaCEP <br> 
+- Utilização da API viaCEP <br>
+
+<img src="https://i.imgur.com/vuYYU69.png" width="600px" />
 
 ## 🖥️ Tecnologias utilizadas:<br>
 <div align="left">
